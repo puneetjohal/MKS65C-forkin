@@ -24,7 +24,7 @@ int main(){
   else{
     int status;
     int child = wait(&status);
-    printf("child with PID %d has exited. It slept for %d seconds", child, status);
+    printf("child with PID %d has exited. It slept for %d seconds\n", child, status);
   }
 
   return 0;
